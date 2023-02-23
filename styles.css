@@ -1,0 +1,47 @@
+body{
+    background: #F7C8E0;
+}
+
+.container{
+    background: #DFFFD8;
+    position: absolute;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.6s ease-out;
+}
+
+p{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+button{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Poppins';
+    border: 0.5px solid;
+    border-radius: 4px;
+    background: #95BDFF;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 70%;
+    transform: scale(0.9);
+}
+
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+}
